@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif; /* Đổi font chữ */
+}
+
+section{
+    display: grid;
+    place-items: center;
+    margin-top: 5%;
+}
+.box{
+    width: 25rem;
+    height: 34rem;
+    border: 2px #d9d9d9 solid;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.box h1{
+    text-align: center;
+    font-size: 27px;
+}
+.box .box-regis{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.box .box-regis .box-regis-lbl{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+.box .box-regis .box-regis-lbl label{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.box .box-regis .box-regis-lbl input{
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 22rem;
+    height: 1.6rem;
+    padding: 5px;
+}
+.box .box-regis .checkbox{
+    display: flex;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.box .box-regis .checkbox .checkbox2{
+    margin-left: 5px;
+}
+.box .box-regis button{
+    margin-top: 10px;
+    color: white;
+    border: none;
+    width: 23rem;
+    height: 2.2rem;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 10px; 
+    background-color:#3a86ff;
+    cursor: pointer;
+}
+.box .box-regis p{
+    font-size: 15px;
+}
+.box .box-regis p a{
+    text-decoration: none;
+}
+
+

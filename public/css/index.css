@@ -1,0 +1,186 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+}
+
+.container {
+    position: relative;
+    top: -20px;
+  
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btn-add {
+    display: block;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    width: max-content;
+    margin: 0 auto 20px;
+}
+
+.btn-add:hover {
+    background: #0056b3;
+}
+.alert-success {
+    background: #0d9e2e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.product-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    height: 450px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image-container {
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.product-content {
+    padding: 15px;
+}
+
+.product-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.product-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-detail, .btn-cart {
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-detail {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-detail:hover {
+    background: #0056b3;
+}
+
+.btn-cart {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-cart:hover {
+    background: #218838;
+}
+
+.admin-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.btn-details .btn-edit, .btn-delete {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    color: #ffc107;
+}
+
+.btn-edit:hover {
+    color: #e0a800;
+}
+
+.btn-delete {
+    color: #dc3545;
+}
+
+.btn-delete:hover {
+    color: #c82333;
+}
+
+.no-products {
+    text-align: center;
+    color: #6c757d;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btn-cart i, .btn-detail i, .btn-edit i, .btn-delete i {
+    font-size: 14px;
+}
