@@ -1,6 +1,8 @@
 # ỨNG DỤNG THƯƠNG MẠI ĐIỆN TỬ SPORTX - BÁN HÀNG THỂ THAO
 ## 1. Giới Thiệu
-La Tiến Thược - 22010150
+Nguyễn Văn Phú - 22010801
+
+Đoàn Đắc Tiến Đạt 
 
 Mục tiêu:
 SportX là một ứng dụng thương mại điện tử chuyên bán các sản phẩm thể thao, bao gồm giày, quần áo, phụ kiện và dụng cụ tập luyện. Website giúp người dùng dễ dàng tìm kiếm sản phẩm phù hợp, cung cấp đầy đủ thông tin chi tiết và mang đến trải nghiệm mua sắm tiện lợi, nhanh chóng.
@@ -28,11 +30,11 @@ Hình ảnh minh họa sơ đồ cấu trúc và chức năng của ứng dụng
 ## 5. Công Nghệ Sử Dụng
 Laravel 11: Framework PHP mạnh mẽ cho phát triển ứng dụng web.
 
-Link github: https://github.com/LaThuoc/MyProject
+Link github: https://github.com/nhanphu09/MyProject-main
 
 
 *Tài khoản mật khẩu cho admin: admin@gmail.com / 123456789
-*Tài khoản mật khẩu cho user: latienthuoc@gmail.com / 123456789
+
 
 
 
