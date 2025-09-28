@@ -30,11 +30,11 @@ Hình ảnh minh họa sơ đồ cấu trúc và chức năng của ứng dụng
 ## 5. Công Nghệ Sử Dụng
 Laravel 11: Framework PHP mạnh mẽ cho phát triển ứng dụng web.
 
-Link github: https://github.com/LaThuoc/MyProject
+Link github: https://github.com/nhanphu09/MyProject-main
 
 
 *Tài khoản mật khẩu cho admin: admin@gmail.com / 123456789
-*Tài khoản mật khẩu cho user: latienthuoc@gmail.com / 123456789
+
 
 
 
