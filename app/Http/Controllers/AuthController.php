@@ -56,23 +56,20 @@ class AuthController extends Controller
             return back()->with('error', 'Sai mật khẩu hoặc email không tồn tại.');
         }
         $request->session()->regenerate();
-        if (auth()->user()->type == 'admin') {
+        if (auth()->user()->type == 1) {
             return redirect()->route('admin/products');
         } else {
             return redirect()->route('home');
         }
-        return redirect()->route('dashboard');
+        //return redirect()->route('dashboard');
     
     }
-    public function logout(Request $request)
+    public function logout(Request $request)    
     {
-        // Auth::guard('web')->logout();
- 
-        // $request->session()->invalidate();
- 
-        // return redirect('/login');
         Auth::logout();
         $request->session()->invalidate();
-        return redirect('/login'); // Quay về trang login sau khi logout
+        $request->session()->regenerateToken(); 
+        return redirect('/login');
     }
+
 }
