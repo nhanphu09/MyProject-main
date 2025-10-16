@@ -35,7 +35,7 @@ class CartController extends Controller
     }
 
 
-     public function getCart()
+    public function getCart()
     {
         $cart = session()->get('cart', []);
         $cartTotal = session()->get('cart_total', 0);
