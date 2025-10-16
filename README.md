@@ -4,7 +4,7 @@
 
 Nguyễn Văn Phú - 22010801
 
-Đoàn Đắc Tiến Đạt
+Đoàn Đắc Tiến Đạt - 23010789
 
 Mục tiêu:
 SportX là một ứng dụng thương mại điện tử chuyên bán các sản phẩm thể thao, bao gồm giày, quần áo, phụ kiện và dụng cụ tập luyện. Website giúp người dùng dễ dàng tìm kiếm sản phẩm phù hợp, cung cấp đầy đủ thông tin chi tiết và mang đến trải nghiệm mua sắm tiện lợi, nhanh chóng.
@@ -31,16 +31,15 @@ Hình ảnh minh họa sơ đồ cấu trúc và chức năng của ứng dụng
 ![mermaid-ai-diagram-2025-03-06-051454](https://github.com/user-attachments/assets/4d7979ec-4758-448b-b16e-4c825f1f28b7)
 ![mermaid-ai-diagram-2025-03-06-051201](https://github.com/user-attachments/assets/142794c5-dd52-4483-b6c3-54fae24dbc14)
 ![mermaid-ai-diagram-2025-03-06-051827](https://github.com/user-attachments/assets/238f1dfd-97d4-4998-a2c0-4d90d1cd1ed2)
+
 ## 4. Sơ Đồ Thuật Toán / Sơ Đồ Tuần Tự
+
 ![mermaid-ai-diagram-2025-03-06-044056](https://github.com/user-attachments/assets/b24af279-b82a-471d-b852-a65aaf45640d)
+
 ## 5. Công Nghệ Sử Dụng
+
 Laravel 11: Framework PHP mạnh mẽ cho phát triển ứng dụng web.
 
 Link github: https://github.com/nhanphu09/MyProject-main
 
-
-*Tài khoản mật khẩu cho admin: admin@gmail.com / password
-
-
-
-
+\*Tài khoản mật khẩu cho admin: admin@gmail.com / password
