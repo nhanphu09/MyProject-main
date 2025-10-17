@@ -2,9 +2,10 @@
 
 ## 1. Giới Thiệu
 
-Nguyễn Văn Phú - 22010801
+Đoàn Đắc Tiến Đạt - 23010789: làm phần login/regester
 
-Đoàn Đắc Tiến Đạt - 23010789
+Nguyễn Văn Phú - 22010801: các phần còn lại
+
 
 Mục tiêu:
 SportX là một ứng dụng thương mại điện tử chuyên bán các sản phẩm thể thao, bao gồm giày, quần áo, phụ kiện và dụng cụ tập luyện. Website giúp người dùng dễ dàng tìm kiếm sản phẩm phù hợp, cung cấp đầy đủ thông tin chi tiết và mang đến trải nghiệm mua sắm tiện lợi, nhanh chóng.
